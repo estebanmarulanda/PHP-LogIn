@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In page</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="main_container">
+        <div class="main_background_box">
+          <!-- Log In Box -->
+          <div class="background_box_login">
+              <h3>Already an user?</h3>
+              <button id="btn_signIn">Sign In</button>
+          </div>
+          
+          
+
+          <!-- Registration Box -->
+
+          <div class="registration_box">
+            <h3>New user?</h3>
+            <p>Register now!</p>
+            <button id="btn_signUp">Sign up</button>
+          </div>
+        </div>
+        <!-- Log In Form -->
+        <div class="main_signUp_box">
+            
+          <form action="/movielist.php" class="logIn_form">
+            <h2>Sign In</h2>
+            <input type="text" placeholder="email address" />
+            <input type="password" placeholder="password" />
+            <button id="btn_logIn">Log In</button>
+          </form>
+
+          <!-- Registration Form -->
+          <form action="" class="registration_form">
+            <h2>Register Now!</h2>
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="email" />
+            <input type="text" placeholder="user name" />
+            <input type="password" placeholder="password" />
+            <button>Register now</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
